@@ -7,9 +7,22 @@ background-color: black;
     list-style: none;
     display: flex; 
 }
-
-
-
+.popularesHome img {
+    max-width: 100%;
+    box-sizing: border-box;
+    flex: none;
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+}
+.detallesPeliculasHome{
+    text-decoration: none;
+}
+h3{
+    color: white;
+    text-align: center;
+    font-weight: normal;
+}
 
 
 .homePopulares {
