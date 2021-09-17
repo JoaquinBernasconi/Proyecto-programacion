@@ -44,10 +44,10 @@ background-color: black;
     box-sizing: border-box;
     flex: none;
     padding: 20px;
-    height: 400px;
+    height: 430px;
     width: 400px;
 }
-.detallesPeliculasHome{
+.detallesHome{
     text-decoration: none;
 }
 h3{
