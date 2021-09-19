@@ -121,3 +121,27 @@ color: white;
     color: white;
     opacity: 0.8;
 }
+.accionDetalle{
+    list-style: none;
+    display: flex; 
+}
+
+.accionDetalle img {
+    max-width: 100%;
+    box-sizing: border-box;
+    flex: none;
+    padding: 20px;
+    height: 430px;
+    width: 400px;
+}
+.detalleAccion {
+    font-size: 1.7rem;
+    line-height: 1.3;
+    color:white;
+    text-align: center;
+    margin-top: 70px;
+    font-weight: normal;
+}
+.detallesPeliculasAccion{
+    text-decoration: none;
+}
