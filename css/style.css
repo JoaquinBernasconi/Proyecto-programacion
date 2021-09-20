@@ -1,10 +1,12 @@
 body{
 background-color: black;
 margin : 0%;
+color: white;
 }
 
-.header { 
 
+/* header */
+header { 
     background-color: #202020;   
     width: 100%;
     height: 90px;
@@ -14,20 +16,28 @@ margin : 0%;
 }
     
 #logo { 
-    
-    height: 70px;    
-    width: 70px;
-    padding: 6px 0px 6px 55px;
+    height: 50px;    
+    width: 50px;
+    padding-left: 45%;
 }
         
-.nav { 
+nav {
+    width: 100%;    
+}
     
+nav a{ 
     font-family: 'Be Vietnam Pro', sans-serif;    
     text-decoration: none; 
-    font-size: 20px;
     color: white;
-    padding: 0% 90px;
+    width: 14.28%;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
 }
+    
+
+
+
 
 .popularesHome{
     list-style: none;
@@ -88,39 +98,71 @@ h3{
     text-decoration: none;
 }
 
-#titulo-detalles {
-
-font-family:'Cinzel', serif;
-color: white;
-}
-
-.texto-detalles  {
-
-    color: white;
-}
-
-#foto-detalles{ 
-
-    width: 500px;
-    height: 750px;
-}
-
-.footer { 
-
-    display: grid;    
-    background-color: #202020; 
-    width: 100%;
-    height: 150px;
-    text-align: center;
-    margin-top: 150px;
-    padding: 10px 0%;
+/* Detalles movies + series */
+.contenedor{ 
+    
+    width: 90%;
+    height: 1200px;
+    margin-right: 5%;
+    margin-left: 5%;
 }
     
-.footer p{
     
-    color: white;
+.detail-box {
+    border-radius: 10px;       
+    border: 0.5px solid grey;
+    width: 31%;
+    height: 90%;
+    margin: 20px 0px 40px 0px;
+    float: left; 
+}
+    
+.photo-box{   
+    padding: 30px;
+    height: 90%;
+    width: 90%;
+}
+    
+.text-box {  
+    height: 25%;
+    margin-right : 30px;
+}
+    
+.text-box li, a { 
+    color: white;    
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style: none;
+    line-height: 50px;
+    text-decoration: none;
+}
+    
+#ul-fav {
+    color: #BBA35E;   
+}
+    
+#ul-genre {
+    font-style: italic;    
+}    
+    
+.detail-title {
+    width: 65%;
+    float: right;
+}    
+    
+#title-d {
+    font-family: 'Cinzel' ;  
+    font-size: 50px;  
+}
+    
+#sinopsis {
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
     opacity: 0.8;
+    margin-bottom: 50px;    
 }
+
 .accionDetalle{
     list-style: none;
     display: flex; 
@@ -145,3 +187,22 @@ color: white;
 .detallesPeliculasAccion{
     text-decoration: none;
 }
+
+/* footer */
+.footer { 
+
+    display: grid;    
+    background-color: #202020; 
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-top: 150px;
+    padding: 10px 0%;
+    }
+        
+    .footer p{
+        
+    color: white;
+    opacity: 0.8;
+    }
+    
