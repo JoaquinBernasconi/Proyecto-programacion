@@ -34,11 +34,6 @@ nav a{
     text-align: center;
     float: left;
 }
-    
-
-
-
-
 .popularesHome{
     list-style: none;
     display: flex; 
@@ -205,4 +200,29 @@ h3{
     color: white;
     opacity: 0.8;
     }
+    .resultadosBusqueda{
+        font-size: 1.7rem;
+        line-height: 1.3;
+        color:white;
+        text-align: center;
+        margin-top: 70px;
+        font-weight: normal;
+    }
     
+   .Resultados{
+       text-decoration: none;
+   }
+   
+   .resultadosUl{
+    list-style: none;
+    display: flex; 
+}
+
+.resultadosUl img {
+    max-width: 100%;
+    box-sizing: border-box;
+    flex: none;
+    padding: 20px;
+    height: 430px;
+    width: 400px;
+}
