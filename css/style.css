@@ -34,6 +34,12 @@ nav a{
     text-align: center;
     float: left;
 }
+
+#barra{
+    float: right;
+    margin-right: 5%;    
+}
+
 .popularesHome{
     list-style: none;
     display: flex; 
