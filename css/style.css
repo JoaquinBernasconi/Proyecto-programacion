@@ -282,3 +282,43 @@ body{
     @media (max-width: 420px) {
     
     }
+
+    #generosJs{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left:50px;
+        padding-right: 50px;
+    }
+
+    #generosJs a{
+        background-color: blanchedalmond;
+        padding: 10px;
+        border-radius: 50px;
+    }
+
+    #generosJs h3{
+        color: black;
+        font-family: 'Montserrat';
+        font-size: 12px;
+    }
+
+    #generosSeries{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left:50px;
+        padding-right: 50px;
+    }
+
+    #generosSeries a{
+        background-color: blanchedalmond;
+        padding: 10px;
+        border-radius: 50px;
+    }
+
+    #generosSeries h3{
+        color: black;
+        font-family: 'Montserrat';
+        font-size: 12px;
+    }

@@ -11,7 +11,7 @@ fetch (`https://api.themoviedb.org/3/movie/popular?api_key=dc4fd0345fbbc208266ac
             <a class="detallesHome" href="detail-movie.html">
                 <li>
                     <div>
-                        <a href="./detail-movie.html?id=${datos.results[i].id}"><img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.results[i].poster_path}" alt="Rapidos y Furiosos 9"></a>
+                        <a href="./detail-movie.html?id=${datos.results[i].id}"><img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.results[i].poster_path}" alt="${datos.results[i].title}"></a>
                         <h3>${datos.results[i].title}</h3>
                         <p>${datos.results[i].release_date}</p>
                     </div>
@@ -33,7 +33,7 @@ fetch (`https://api.themoviedb.org/3/movie/top_rated?api_key=dc4fd0345fbbc208266
             <a class="detallesHome" href="detail-movie.html">
                 <li>
                     <div>
-                        <a href="./detail-movie.html?id=${datos.results[i].id}"><img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.results[i].poster_path}" alt="Rapidos y Furiosos 9"></a>
+                        <a href="./detail-movie.html?id=${datos.results[i].id}"><img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.results[i].poster_path}" alt="${datos.results[i].title}"></a>
                         <h3>${datos.results[i].title}</h3>
                         <p>${datos.results[i].release_date}</p>
                     </div>
@@ -55,7 +55,7 @@ fetch (`https://api.themoviedb.org/3/tv/popular?api_key=dc4fd0345fbbc208266ac0c1
             <a class="detallesHome" href="detail-movie.html">
                 <li>
                     <div>
-                        <a href="./detail-movie.html?id=${datos.results[i].id}"><img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.results[i].poster_path}" alt="Rapidos y Furiosos 9"></a>
+                        <a href="./detail-serie.html?id=${datos.results[i].id}"><img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/${datos.results[i].poster_path}" alt="${datos.results[i].name}"></a>
                         <h3>${datos.results[i].name}</h3>
                         <p>${datos.results[i].first_air_date}</p>
                     </div>
